@@ -1,13 +1,13 @@
-# Fullstack Agents Hackathon Starter
 
-Welcome to the Fullstack Agents hackathon! This starter gives you a complete AI-powered canvas application with real-world integrations. Utilizing [LlamaIndex](https://developers.llamaindex.ai), [Composio](https://docs.composio.dev), and [CopilotKit](https://docs.copilotkit.ai). 
 
-## About this starter
-This is a starter template for building AI-powered canvas applications using LlamaIndex, CopilotKit, and Composio. It provides a modern Next.js application with an integrated LlamaIndex agent that manages a visual canvas of interactive cards with real-time AI synchronization and external tool integrations (Google Sheets, for this example) through Composio.
+## About this project 
 
-This is an example application that we built to help you get started quickly. Everything you see can be customized, replaced, augmented or built upon.
+SteveandBill project is a Financial Planning & Analysis dashboard delivering a clear view of past performance and future outlook, defaulting to six months or customizable to a year. It presents market trends, identifies areas behind or ahead of forecast, and generates the top five targeted recommendations for improvement. With built-in options to contact co-workers in relevant departments, the dashboard transforms insights into immediate collaboration, helping teams act quickly to improve financial performance and business outcomes.
 
-https://github.com/user-attachments/assets/2a4ec718-b83b-4968-9cbe-7c1fe082e958
+So, we designed it as  an AI-powered canvas application using LlamaIndex, CopilotKit, and Composio. It provides a modern Next.js application with an integrated LlamaIndex agent that manages a visual canvas of interactive cards with real-time AI synchronization and external tool integrations (Google Sheets, for this example) through Composio. For SteveandBill project, we used Google Sheets integration because hacakthon users had gmail accounts. 
+
+Once canvas was up, we used natural language to analyze data and then send messages to Slack with Composio. 
+
 
 ### LlamaIndex
 LlamaIndex is a framework for building generative AI applications, in particular Document Agents, i.e. agents that process unstructured data like PDFs, PowerPoints, Word files and more. The core framework has adapters for loading and storing data, while the Workflows framework provides a way to build an agent or multi-agent system and control how data moves around. Both frameworks can make use of LlamaCloud, an enterprise offering that provides RAG and structured data extraction as a service.
