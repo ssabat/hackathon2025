@@ -2,7 +2,7 @@
 
 ## About this project 
 
-SteveandBill project is a Financial Planning & Analysis dashboard delivering a clear view of past performance and future outlook, defaulting to six months or customizable to a year. It presents market trends, identifies areas behind or ahead of forecast, and generates the top five targeted recommendations for improvement. With built-in options to contact co-workers in relevant departments, the dashboard transforms insights into immediate collaboration, helping teams act quickly to improve financial performance and business outcomes.
+SteveAndBill hacakthon project is a Financial Planning & Analysis dashboard delivering a clear view of past performance and future outlook, defaulting to six months or customizable to a year. It presents market trends, identifies areas behind or ahead of forecast, and generates the top five targeted recommendations for improvement. With built-in options to contact co-workers in relevant departments, the dashboard transforms insights into immediate collaboration, helping teams act quickly to improve financial performance and business outcomes.
 
 So, we designed it as  an AI-powered canvas application using LlamaIndex, CopilotKit, and Composio. It provides a modern Next.js application with an integrated LlamaIndex agent that manages a visual canvas of interactive cards with real-time AI synchronization and external tool integrations (Google Sheets, for this example) through Composio. For SteveandBill project, we used Google Sheets integration because hacakthon users had gmail accounts. 
 
