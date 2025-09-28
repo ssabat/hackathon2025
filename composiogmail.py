@@ -1,17 +1,17 @@
 from composio import Composio
 from openai import OpenAI
 
-composio = Composio(api_key="ak_qFIMvzRGCijDyulnCxwq")
+composio = Composio(api_key="xxxxx")
 
 # env: OPENAI_API_KEY
 openai_client = OpenAI()
 
 # Id of the user in your system
-externalUserId = "sunil_sabat@yahoo.com"
+externalUserId = "<emaiid>"
 
 connection_request = composio.connected_accounts.initiate(
   user_id=externalUserId,
-  auth_config_id="ac_PnoZhf6lyR3G",
+  auth_config_id="<configid>",
 )
 
 # Redirect user to the OAuth flow
@@ -36,7 +36,7 @@ response = openai_client.chat.completions.create(
         {
           "role": "user",
           "content": (
-            f"Send an email to sunil_sabat@yahoo.com with the subject 'Hello from composio 👋🏻' and "
+            f"Send an email to <emailid> with the subject 'Hello from composio 👋🏻' and "
             "the body 'Congratulations on sending your first email using AI Agents and Composio!'"
           ),
         },
