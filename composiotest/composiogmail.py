@@ -1,17 +1,17 @@
 from composio import Composio
 from openai import OpenAI
 
-composio = Composio(api_key="ak_qFIMvzRGCijDyulnCxwq")
+composio = Composio(api_key="apikey")
 
 # env: OPENAI_API_KEY
 openai_client = OpenAI()
 
 # Id of the user in your system
-externalUserId = "sunil_sabat@yahoo.com"
+externalUserId = "emailid"
 
 connection_request = composio.connected_accounts.initiate(
   user_id=externalUserId,
-  auth_config_id="ac_PnoZhf6lyR3G",
+  auth_config_id="appauthconfigid",
 )
 
 # Redirect user to the OAuth flow
